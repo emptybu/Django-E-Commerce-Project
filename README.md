@@ -26,7 +26,7 @@
 
 ### Настройка виртуального окружения
 
-```bash
+```python bash
 # Клонирование репозитория
 git clone https://github.com/your-username/django-ecommerce.git
 cd django-ecommerce
@@ -42,3 +42,14 @@ venv\Scripts\activate
 
 # Установка зависимостей
 pip install -r requirements.txt
+
+##Инструкции по запуску миграций и сервера.##
+
+'''# Создание миграций
+python manage.py makemigrations
+
+# Применение миграций
+python manage.py migrate
+
+# Создание суперпользователя
+python manage.py createsuperuser'''
