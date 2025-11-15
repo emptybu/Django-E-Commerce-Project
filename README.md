@@ -43,7 +43,7 @@ venv\Scripts\activate
 # Установка зависимостей
 pip install -r requirements.txt
 
-##Инструкции по запуску миграций и сервера.##
+## Инструкции по запуску миграций и сервера.
 
 '''# Создание миграций
 python manage.py makemigrations
