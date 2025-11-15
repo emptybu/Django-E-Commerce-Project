@@ -36,12 +36,7 @@ python -m venv venv
 
 # Активация (Linux/Mac)
 source venv/bin/activate
-
-# Активация (Windows)
-venv\Scripts\activate
-
-# Установка зависимостей
-pip install -r requirements.txt
+venv\Scripts\activate pip install -r requirements.txt
 '''
 
 ## Инструкции по запуску миграций и сервера.
