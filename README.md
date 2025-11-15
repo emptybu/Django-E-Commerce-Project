@@ -52,4 +52,4 @@ python manage.py makemigrations
 python manage.py migrate
 
 # Создание суперпользователя
-python manage.py createsuperuser'''
+python manage.py createsuperuser '''
