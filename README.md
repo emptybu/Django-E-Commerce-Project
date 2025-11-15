@@ -26,7 +26,7 @@
 
 ### Настройка виртуального окружения
 
-```python bash
+bash
 # Клонирование репозитория
 git clone https://github.com/your-username/django-ecommerce.git
 cd django-ecommerce
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ## Инструкции по запуску миграций и сервера.
 
-'''# Создание миграций
+'''python # Создание миграций
 python manage.py makemigrations
 
 # Применение миграций
