@@ -45,5 +45,10 @@ pip install -r requirements.txt
 
 ## Инструкции по запуску миграций и сервера.
 '''
-Создание миграций python manage.py makemigrations # Применение миграций python manage.py migrate # Создание суперпользователя python manage.py createsuperuser
+# Создание миграций
+python manage.py makemigrations
+# Применение миграций
+python manage.py migrate
+# Создание суперпользователя
+python manage.py createsuperuser
 '''
