@@ -40,4 +40,10 @@ venv\Scripts\activate pip install -r requirements.txt
 '''
 
 ## Инструкции по запуску миграций и сервера.
-```python manage.py makemigrations manage.py migrate manage.py createsuperuser ```
+```python
+manage.py 
+makemigrations
+manage.py
+migrate
+manage.py
+createsuperuser ```
