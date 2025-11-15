@@ -44,10 +44,4 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 ## Инструкции по запуску миграций и сервера.
-''' # Создание миграций '''
-python manage.py makemigrations
-# Применение миграций
-python manage.py migrate
-# Создание суперпользователя
-python manage.py createsuperuser
-'''
+'''python manage.py makemigrations manage.py migrate manage.py createsuperuser '''
